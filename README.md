@@ -6,12 +6,15 @@ This code based on Xebia's technical test. It builds with Maven 3 and runs with 
 How to execute
 --------------
 First, build the code:
+
     # mvn package
 
 Then, to execute the program with the instructions provided in the exercise:
+
     # java -cp target\mow-it-now.jar com.seigneurin.mowitnow.MowFromFile src/main/resources/instructions.txt
 
 Alternatively, to execute the program with the ability to provide the instructions through the command line:
+
     # java -cp target\mow-it-now.jar com.seigneurin.mowitnow.MowFromConsole
 
 
